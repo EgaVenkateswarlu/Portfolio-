@@ -39,6 +39,34 @@ a:focus {
   text-decoration: none;
 }
 
+.resume-link {
+    margin-top: 15px;
+    
+}
+
+.resume-link a {
+    display: inline-block;
+    background-color: #b0b7bf;   /* Bootstrap primary blue */
+    color: #32383e;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 500;
+    padding: 8px 16px;
+    border-radius: 25px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.resume-link a i {
+    margin-right: 6px;
+    color: #32383e;
+    font-size: 20px;
+}
+
+.resume-link a:hover {
+    background-color: #bac5d0;   /* Darker blue on hover */
+    color: #32383e;
+}
+
 .btn, a.btn {
   -webkit-transition: all 0.4s ease-in-out;
   -moz-transition: all 0.4s ease-in-out;
